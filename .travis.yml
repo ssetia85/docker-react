@@ -10,11 +10,11 @@ script:
 
 language: generic
 
-deploy:
-   provider: elasticbeanstock
-   region: "us-east-1"
-   app: "docker-react"
-   environment: "Docker-env"
+#deploy:
+#   provider: elasticbeanstock
+#   region: "us-east-1"
+#   app: "docker-react"
+#   environment: "Docker-env"
 #   bucker_name: 
 #   bucker_path: 
 #   on:
