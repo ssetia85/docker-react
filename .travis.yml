@@ -10,14 +10,14 @@ script:
 
 language: generic
 
-#deploy:
-#   provider: elasticbeanstock
-#   region: "us-east-1"
-#   app: "docker-react"
-#   environment: "Docker-env"
-#   bucker_name: 
-#   bucker_path: 
-#   on:
-#      branch: master
-#   access_key_id: $AWS_ACCESS_KEY
-#   secret_access_key: $AWS_SECRET_KEY
+deploy:
+   provider: elasticbeanstock
+   region: "us-west-2"
+   app: "Docker"
+   environment: "Docker-env"
+   bucker_name: "elasticbeanstalk-us-west-2-071819669202" 
+   bucker_path: "docker"
+   on:
+      branch: master
+   access_key_id: $AWS_ACCESS_KEY
+   secret_access_key: $AWS_SECRET_KEY
